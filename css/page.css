@@ -1,0 +1,48 @@
+#map-div { height: 350px; width: 650px; margin-right: 200px; float: right; }
+
+.wax-tooltip {
+	position:absolute;
+	right:10px;
+	top:10px;
+	padding:10px;
+	background-color:#000;
+	color: #fff;
+	opacity:0.8;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	width: 30%;
+	z-index: 5;
+	-moz-tansition:opacity .5s;
+	-webkit-transition:opacity .5s;
+}
+
+.wax-fade { opacity:0; }
+
+#legend {
+	font-family: sans-serif;
+	font-size: 0.8em;
+	line-height: 20px;
+	}
+
+#legend span {
+	height: 20px;
+	width: 20px;
+	margin-right: 5px;
+	display: block;
+	float: left;
+	clear: left;
+	}
+
+#legend #r-rq-0 { background-color: #FFB6B6; }
+#legend #r-rq-1 { background-color: #FF9191; }
+#legend #r-rq-2 { background-color: #FF6D6D; }
+#legend #r-rq-3 { background-color: #FF4848; }
+#legend #r-rq-4 { background-color: #FF2424; }
+#legend #r-rq-5 { background-color: #FF0000; }
+
+#legend #d-rq-0 { background-color: #B6B6FF; }
+#legend #d-rq-1 { background-color: #9191FF; }
+#legend #d-rq-2 { background-color: #6D6DFF; }
+#legend #d-rq-3 { background-color: #4848FF; }
+#legend #d-rq-4 { background-color: #2424FF; }
+#legend #d-rq-5 { background-color: #0000FF; }

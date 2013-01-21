@@ -1,0 +1,12 @@
+{
+    "attribution": "Map: Nick Judd / techPresident | Data: Dave Wasserman | Shapefiles: US Census / Josh Tauberer / National Atlas", 
+    "description": "", 
+    "center": "-101.7169,40.1789,4", 
+    "bounds": "-173.4357,2.9869,-66.2091,72.1818", 
+    "minzoom": "3", 
+    "version": "2.0.0", 
+    "template": "{{#__location__}}{{/__location__}}{{#__teaser__}}<strong>Rep. {{{Winner}}} ({{{Party}}}-{{{statename}}})</strong><br />\nRQ: {{{rqshp}}}<br />\nVotes: {{{winnershp}}}{{/__teaser__}}{{#__full__}}{{/__full__}}", 
+    "maxzoom": "8", 
+    "legend": "", 
+    "name": "Representative Quotient"
+}
